@@ -1,5 +1,6 @@
+import requests
+
 def get_events():
-    return [
-        {'name': 'イベント1'},
-        {'name': 'イベント1'},
-    ]
+    r = requests.get('http://connpass.com/api/v1/event/?keyword=python')
+    return r.json()['events']
+

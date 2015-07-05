@@ -7,7 +7,7 @@
 <body>
     <h1>勉強会の一覧を表示</h1>
     % for event in events:
-      <p>{{event['name']}}</p>
+      <p>{{event['title']}}</p>
     % end
 </body>
 </html>
