@@ -7,7 +7,7 @@
 <body>
     <h1>勉強会の一覧を表示</h1>
     <form action="/events" method="GET">
-      <input type="text" name="keyword"></input>
+      <input type="text" name="keyword" value="{{keyword}}"></input>
       <input type="submit"></input>
     </form>
     

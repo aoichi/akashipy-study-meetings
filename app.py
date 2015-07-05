@@ -4,6 +4,11 @@ from events import get_events
 
 @route('/events')
 def events():
-    return template('events', events=get_events(request.query.keyword))
+    keyword = request.query.keyword
+    return template(
+        'events',
+        events=get_events(keyword),
+        keyword=keyword
+    )
 
 run(host='localhost', port=8080, debug=True, reloader=True)
