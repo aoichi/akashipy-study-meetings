@@ -3,6 +3,7 @@
 <head>
     <title>勉強会の一覧を表示</title>
     <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <h1>勉強会の一覧を表示</h1>
